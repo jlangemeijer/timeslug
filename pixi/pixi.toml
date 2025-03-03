@@ -1,0 +1,15 @@
+[project]
+authors = ["Joris <jlangemeijer@aaenmaas.nl>"]
+channels = ["conda-forge"]
+name = "pixi"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python="3.12.*"
+pyinstaller = ">=6.11.1,<7"
+ipykernel = ">=6.29.5,<7"
+pyperclip = ">=1.9.0,<2"
+
